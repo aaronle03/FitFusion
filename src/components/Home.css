@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
+
+.home {
+    height: 100vh;
+    z-index: -1;
+    background-image: url('../../public/img/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-container {
+    display:flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+}
+
+.custom-shape-divider-bottom-1687682990 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1687682990 svg {
+    position: relative;
+    display: block;
+    width: calc(183% + 1.3px);
+    height: 156px;
+}
+
+.custom-shape-divider-bottom-1687682990 .shape-fill {
+    fill: #E1D5D9;
+}
