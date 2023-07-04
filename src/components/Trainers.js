@@ -30,8 +30,7 @@ function Trainers(props) {
                 </div>
                 <div class="flip-card">
                     <div class="flip-card-inner">
-                      <div class="flip-card-front3">
-                      </div>
+                      <div class="flip-card-front3">                      </div>
                       <div class="flip-card-back">
                         <h2>Juco Malfoy</h2>
                         <p>Wellness Coach</p>

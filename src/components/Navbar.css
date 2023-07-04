@@ -1,56 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
 
-.navbar {
-    position: absolute;
-    z-index: 1; 
-    left: 50%;
-    top: 30%;
-    transform: translateX(-50%);
-    right:auto;
+.nav {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    position:fixed;
+    top: 0;
+    margin-top: 0px;
+    width: 100%;
     background-color: transparent;
-    flex-direction: column;
-    opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
+    justify-content: space-between;
 }
 
-@keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-.navbar-container {
-    font-size: 140px;
-    font-family: 'Bagel Fat One', cursive;
-    color:#E1D5D9;
-}
-
-.navbar-container h1 {
-    margin: 0px;
+.logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: #E1D5D9;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+    margin-left: 10px;
 }
 
 .navbar-links {
     display:flex;
-    margin: 0px;
+    flex-direction: row;
+    align-items: center;
     gap: 30px;
-    font-family: 'Ubuntu';
 }
 
 .navbar-links a {
+    color: #E1D5D9;
     text-decoration: none;
-    color:#F6F2F6;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
     transition: all .2s ease-in-out;
 }
 
 .navbar-links a:hover {
     text-decoration: underline;
     transform: scale(1.1);
-    color:#E1D5D9;
 }
+
+.profilejoin {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: #E1D5D9;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.profilejoin a {
+    color: #1C252C;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    transition: all .2s ease-in-out;
+}
+
+.profilejoin a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.join-link {
+    background-color: #E1D5D9;
+    padding: 5px 10px;
+  }
