@@ -63,6 +63,7 @@
 .profilejoin a:hover {
     text-decoration: underline;
     transform: scale(1.1);
+    color: #1C252C;
 }
 
 .join-link {
