@@ -9,6 +9,8 @@
     width: 100%;
     background-color: transparent;
     justify-content: space-between;
+    z-index: 9999;
+    transition: all .5s ease-in-out;
 }
 
 .logo {
@@ -68,5 +70,11 @@
 
 .join-link {
     background-color: #E1D5D9;
+    color:#1C252C;
     padding: 5px 10px;
-  }
+}
+
+.scrolled {
+    background-color: #1C252C;
+    transition: all 1.2s ease-in-out;
+}

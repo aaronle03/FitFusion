@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 .trainers-page {
     height: 100vh;
@@ -11,11 +12,27 @@
     margin: 0px;
 }
 
+.trainers-page h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  color:#1C252C;
+}
+
 .trainers-page h1 {
-  font-family: 'Bagel Fat One', cursive;
+  font-family: 'Russo One', sans-serif;
   font-size: 70px;
   color:#58545B;
   letter-spacing: 8px;
+  margin: 0;
+}
+
+.trainers-page h3 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 80px;
+  color:#1C252C;
 }
 
 .profiles {

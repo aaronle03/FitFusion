@@ -4,7 +4,9 @@ import './Trainers.css';
 function Trainers(props) {
     return (
         <div id={props.id} className="trainers-page">
+            <h2>Meet Us</h2>
             <h1>Meet Our Instructors</h1>
+            <h3>Expert team of coaches helps you succeed in any goal, personalized guidance and motivation provided!</h3>
             <div className="profiles">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -32,7 +34,7 @@ function Trainers(props) {
                     <div class="flip-card-inner">
                       <div class="flip-card-front3">                      </div>
                       <div class="flip-card-back">
-                        <h2>Juco Malfoy</h2>
+                        <h2>David Reyes</h2>
                         <p>Wellness Coach</p>
                         <p>Empowering wellness coach guiding your journey to holistic well-being.</p>
                       </div>

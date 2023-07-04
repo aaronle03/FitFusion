@@ -1,0 +1,54 @@
+.memberships {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberships h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color:#1C252C;
+}
+
+.memberships h1 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 70px;
+  color:#58545B;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.memberships h3 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 80px;
+  color:#1C252C;
+}
+
+.levels {
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.levelOne {
+    height: 450px;
+    width: 400px;
+    background-color: #555;
+}
+
+.levelTwo {
+    height: 450px;
+    width: 400px;
+    background-color: #555;
+}
+
+.levelThree {
+    height: 450px;
+    width: 400px;
+    background-color: #555;
+}
