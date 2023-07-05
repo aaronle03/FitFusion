@@ -4,6 +4,7 @@ import Navbar from '../src/components/Navbar'
 import Home from '../src/components/Home'
 import Trainers from '../src/components/Trainers'
 import Memberships from '../src/components/Memberships'
+import Footer from '../src/components/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home></Home>
       <Trainers id="Trainers"></Trainers>
       <Memberships id="Memberships"></Memberships>
+      <Footer></Footer>
     </div>
   );
 }
