@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
+
 .memberships {
     height: 100vh;
     display: flex;
@@ -35,20 +37,71 @@
     gap: 40px;
 }
 
-.levelOne {
-    height: 450px;
+.levelCard {
+    height: 600px;
     width: 400px;
     background-color: #555;
+    display:flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
 }
 
-.levelTwo {
-    height: 450px;
-    width: 400px;
-    background-color: #555;
+.levelCard:hover {
+    transform: scale(1.05);
 }
 
-.levelThree {
-    height: 450px;
-    width: 400px;
-    background-color: #555;
+.levelBio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.levelBio h1 {
+    font-size:35px;
+    color:White;
+    font-family: 'Russo One', sans-serif;
+    transition: transform 0.9s ease;
+}
+
+.levelCard:hover .levelBio h1 {
+    color:#1C252C;
+}
+
+.levelBio h2 {
+    font-size: 28px;
+    color:white;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu';
+}
+
+.levelBio ul {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:white;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+#levelPhoto {
+    height:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.levelOnePhoto {
+    background-image: url('C:\Users\kunai\OneDrive\Desktop\summer-23\FitFusion\public\img\membership1.jpg');
+}
+
+.levelTwoPhoto {
+    background-image: url('C:\Users\kunai\OneDrive\Desktop\summer-23\FitFusion\public\img\membership2.jpg');
+}
+
+.levelThreePhoto {
+    background-image: url('C:\Users\kunai\OneDrive\Desktop\summer-23\FitFusion\public\img\membership3.jpg');
 }

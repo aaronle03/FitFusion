@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
+
+.BMI-container {
+    height: 550px;
+    background-color: #1C252C;
+    margin: 0px;
+    border: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.BMI-Calc {
+    color:white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.BMI-results {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BMI-results form {
+    width: 400px;
+}
+
+.BMI-Calc h1 {
+    font-size: 60px;
+    margin: 0px;
+    font-family: 'Russo One', sans-serif;
+    color: #E1D5D9
+}
+
+.BMI-Calc h3 {
+    font-size: 25px;
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.BMI-Calc label {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.BMI-Calc input {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.BMI-Calc p {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bmi-submit-button {
+    background-color: #E1D5D9;
+    color: #1C252C;
+    font-family: 'Russo One', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.bmi-submit-button:hover {
+    /* Button hover styles */
+    transform: scale(1.1);
+}
