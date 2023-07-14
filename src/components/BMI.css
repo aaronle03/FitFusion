@@ -71,3 +71,9 @@
     /* Button hover styles */
     transform: scale(1.1);
 }
+
+.BMI-results-final {
+    display:flex;
+    flex-direction: column;
+    margin-left: 50px;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Ubuntu:wght@300&display=swap');
+
+.class-container {
+    height: 1250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-container h2 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color:#1C252C;
+}
+
+.class-container h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+    color:#58545B;
+    letter-spacing: 8px;
+    margin: 0;
+}
+  
+.class-container h3 {
+    font-family: 'Russo One', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 80px;
+    color:#1C252C;
+}
+
+.class-block-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.class-block {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+
+.class-block h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    color: #E1D5D9;
+}
+
+#class4, #class1, #class6, #class3 {
+    width: 610px;
+}
+
+#class1 {
+    background-image: url('../../public/img/cardio-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+#class2 {
+    background-image: url('../../public/img/boxing-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+#class3 {
+    background-image: url('../../public/img/hiit-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+#class4 {
+    background-image: url('../../public/img/meditation-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+#class5 {
+    background-image: url('../../public/img/power-lift-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+#class6 {
+    background-image: url('../../public/img/yoga-class.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+.class-block:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.class-block:hover h1 {
+    color: #1C252C;
+}
+
+#class1:hover, #class2:hover, #class3:hover,#class4:hover,#class5:hover,#class6:hover {
+    filter:none;
+}
