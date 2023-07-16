@@ -36,7 +36,7 @@ function Navbar() {
             <a href="https://github.com/aaronle03" className="profile-link">
               <img src="https://icongr.am/clarity/avatar.svg?size=45&color=e1d5d9" alt="Avatar" border="0" />
             </a>
-            <a href="https://github.com/aaronle03" className="join-link">
+            <a href="/other_pages/SignUp.js" className="join-link" target="_blank">
               JOIN CLASS NOW
             </a>
           </section>
